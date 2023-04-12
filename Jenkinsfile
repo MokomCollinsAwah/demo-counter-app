@@ -14,7 +14,7 @@ pipeline{
                 }
             }
         }
-       /* stage('UNIT testing'){
+        stage('UNIT testing'){
             
             steps{
                 
@@ -67,7 +67,7 @@ pipeline{
                         waitForQualityGate abortPipeline: false, credentialsId: 'sonar-api'
                     }
                 }
-            } */
+            } 
         }
         
 }
